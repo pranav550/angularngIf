@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularngIf';
+  isValid:boolean=true;
+
+  changevalue(valid){
+    this.isValid = valid
+  }
 }
